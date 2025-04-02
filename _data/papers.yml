@@ -1,0 +1,50 @@
+- id: autoe2e
+  title: "Feature-Driven End-To-End Test Generation"
+  authors: Parsa Alian, Noor Nashid, Mobina Shahbandeh, Ali Mesbah
+  venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+  year: 2025
+  pages: 
+  doi: https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00141
+  code: https://github.com/parsaalian/autoe2e
+
+- id: flakidock
+  title: "Dockerfile Flakiness: Characterization and Repair"
+  authors: Taha Shabani, Noor Nashid, Parsa Alian, Ali Mesbah
+  venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+  year: 2025
+  pages:
+  doi: https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00238
+
+- id: naviqate
+  title: "Naviqate: Functionality-Guided Web Application Navigation"
+  authors: Mobina Shahbandeh, Parsa Alian, Noor Nashid, Ali Mesbah
+  venue:
+  year: 2024
+  pages:
+  doi:
+
+- id: apieval
+  title: "Contextual API Completion for Unseen Repositories Using LLMs"
+  authors: Noor Nashid, Taha Shabani, Parsa Alian, Ali Mesbah
+  venue:
+  year: 2024
+  pages:
+  doi:
+
+- id: formnexus
+  title: "Semantic Constraint Inference for Web Form Test Generation"
+  authors: Parsa Alian, Noor Nashid, Mobina Shahbandeh, Ali Mesbah
+  venue: ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
+  year: 2024
+  pages:
+  doi: https://doi.org/10.1145/3650212.368033
+  code: https://github.com/parsaalian/formnexus
+
+- id: rps
+  title: "RPS: Portfolio Asset Selection using Graph based Representation Learning"
+  authors: MohammadAmin Fazli, Parsa Alian, Ali Owfi, Erfan Loghmani
+  venue: Intelligent Systems with Applications
+  year: 2021
+  pages:
+  doi: https://doi.org/10.1016/j.iswa.2024.200348
+  code: https://github.com/parsaalian/RPS
