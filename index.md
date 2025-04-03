@@ -11,7 +11,7 @@ I am a Ph.D. candidate in Computer Software Engineering from University of Briti
 
 ### News
 
-<table>
+<table style="margin-bottom: 15px">
   <tr>
     <td style="vertical-align: top;">Jan,&nbsp;2025</td>
     <td>
