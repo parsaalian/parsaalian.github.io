@@ -26,7 +26,7 @@ group: pubs
       <br/>
       {{ paper.authors }}
       <br/>
-      <i>{{ paper.venue }}</i>, {{ paper.pages }}, {{ paper.year }}.
+      {% if paper.venue %}<i>{{ paper.venue }}</i>,{% endif %} {% if paper.pages %}{{ paper.pages }} pages,{% endif %} {{ paper.year }}.
     </div>
     <div class="right">
       {% if paper.id %}
