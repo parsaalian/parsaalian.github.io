@@ -45,11 +45,11 @@
   code: https://github.com/parsaalian/formnexus
   url: https://dl.acm.org/doi/abs/10.1145/3650212.3680332
 
-- id: rps
-  title: "RPS: Portfolio Asset Selection using Graph based Representation Learning"
+- title: "RPS: Portfolio Asset Selection using Graph based Representation Learning"
   authors: MohammadAmin Fazli, Parsa Alian, Ali Owfi, Erfan Loghmani
   venue: Intelligent Systems with Applications
   year: 2021
   pages: 10
   doi: https://doi.org/10.1016/j.iswa.2024.200348
   code: https://github.com/parsaalian/RPS
+  # id: rps
