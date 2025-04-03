@@ -6,6 +6,8 @@ weight: 3
 group: pubs
 ---
 
+
+
 {% assign papers_by_year = site.data.papers | group_by_exp:"paper", "paper.year | plus: 0" %}
 {% for year in papers_by_year %}
   <h3>{{ year.name }}</h3>
@@ -18,9 +20,16 @@ group: pubs
     </span> <br/>
     {% endif %}
     <div class="publication-title">
-      {{ paper.authors }}. {{ paper.title }}. {{ paper.venue }}.
+      <b>
+        <a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>
+      </b>
+      <br/>
+      {{ paper.authors }}
+      <br/>
+      <i>{{ paper.venue }}</i>, {{ paper.pages }}, {{ paper.year }}.
     </div>
     <div class="right">
+      {% if paper.id %}
       <a href="{{ "/resources/papers/" | append: paper.id | append: ".pdf" | prepend: site.baseurl }}" target="_blank">
         <span class="icon"><svg><use xlink:href="#icon-pdf"/></svg></span>
       </a>
